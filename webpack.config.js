@@ -66,6 +66,6 @@ module.exports = {
       fileName: "index.html",
       template: "src/template.html",
     }),
-    new WebpackBundleAnalyzer(),
+    // new WebpackBundleAnalyzer(),
   ],
 };

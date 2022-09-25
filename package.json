@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack",
-    "dev": "webpack serve"
+    "dev": "webpack serve",
+    "start": "webpack && node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -23,5 +24,8 @@
     "webpack-bundle-analyzer": "^4.6.1",
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
   }
 }
